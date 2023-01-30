@@ -5,7 +5,7 @@
     <link>https://aditya-shirwatkar.github.io/post/</link>
       <atom:link href="https://aditya-shirwatkar.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://aditya-shirwatkar.github.io/media/icon_hu3c8b3cca05720205a51908e6ee147f10_203090_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <title></title>
       <link>https://aditya-shirwatkar.github.io/post/getting-started/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aditya-shirwatkar.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;

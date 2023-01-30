@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Project | A2</title>
+    <link>https://aditya-shirwatkar.github.io/tag/course-project/</link>
+      <atom:link href="https://aditya-shirwatkar.github.io/tag/course-project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Course Project</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://aditya-shirwatkar.github.io/media/icon_hu3c8b3cca05720205a51908e6ee147f10_203090_512x512_fill_lanczos_center_3.png</url>
+      <title>Course Project</title>
+      <link>https://aditya-shirwatkar.github.io/tag/course-project/</link>
+    </image>
+    
+    <item>
+      <title>Representation Free Model Predictive Control for Legged Locomotion</title>
+      <link>https://aditya-shirwatkar.github.io/project/rfmpc_cpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/rfmpc_cpp/</guid>
+      <description>&lt;p&gt;Model Predictive Control is a popular and powerful control algorithm used in legged robot locomotion. In this project we show the application of the recently published walking controller, Representation Free Model Predictive Control (RF-MPC), to a quadruped robot, Stoch-3, in a simulation environment. The RF-MPC controller directly represents the rotational dynamics using the rotation matrix. Other walking controllers like Convex-MPC use Euler angles for representing orientations, which have singularity and approximation issues. RF-MPC models the quadruped robot as a single rigid body with massless legs. It uses a variation-based linearization scheme to linearize the model. The MPC control law is written in a standard Quadratic Program (QP) form.&lt;/p&gt;
+&lt;p&gt;The Algorithm can perform step-in-place motion for some duration after which the solution starts to diverge and the robot becomes unstable. The main reason behind this is the suboptimal reference trajectory of control inputs based on simple heuristics. Hence we generate the reference trajectory of control inputs for the RF-MPC by using the Convex MPC algorithm at a lower frequency. With this, we have been able to achieve robust performance for
+all different types of gaits. The Convex MPC runs at 30 Hz and RF-MPC runs at 300 Hz. We demonstrate in-place stepping, forward walking, in-place turning, and sideways walking using the trot gait on the Stoch-3 robot in the Pybullet simulation environment. We also performed some preliminary hardware experiments for sim2real validation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ViLocNav: Visual Learning-based Optimal Control and Navigation</title>
+      <link>https://aditya-shirwatkar.github.io/project/vilocnav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/vilocnav/</guid>
+      <description>&lt;p&gt;Model-based control methods like MPC and iLQG are a popular paradigm for autonomous robot navigation because they can efficiently plan robust robot motion trajectories by leveraging a known deterministic or stochastic dynamics model. However, using model-based methods in situations where the environment is a priori unknown and can only be observed partially through onboard sensors on the robot is challenging, and requires mapping and localization of the robot w.r.t to the unknown environment.&lt;/p&gt;
+&lt;p&gt;Mapping can be used to estimate the 3D structure of the environment (using RGB / RGB-D images / LiDAR scans), which is used by a planner to compute paths to a goal. Although such purely geometric intermediate representations do not capture navigational affordances (such as: to go far away, one should step into a hallway, etc.). Furthermore, mapping is challenging with just RGB observations, and often unreliable even with active depth sensors (such as in presence of shiny or thin objects, or presence of strong ambient light). End-to-end learning methods which do not rely on any model-based setting are used to sidestep this explicit map estimation step and have also been studied by some researchers. However, such approaches have proven to extremely sample inefficient and highly specific to the system they were trained on. Plus the control outputs from the pipeline are jittery and often not optimal, which increases the difficulty of deployment in real-world scenarios.&lt;/p&gt;
+&lt;p&gt;In our project, we will try to improve on this shortcoming by combining deep learning and model-based control. Our pipeline will consist of a learning-based perception module along with optimal control for autonomous driving. A series of waypoints are produced by the learning-based perception module that guides the robot to the goal via avoiding obstacles. This approach is highly based on the paper “Combining Optimal Control and Learning for Visual Navigation in Novel Environments”. A model-based planner uses these waypoints to generate a smooth and dynamically feasible trajectory, which is then executed on the physical system using feedback control&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple FEM Algorithms</title>
+      <link>https://aditya-shirwatkar.github.io/project/fem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/fem/</guid>
+      <description>&lt;p&gt;Repository of implementation of few algorithms for structural analysis of 1D beam, 2D Truss, 1D Rod, and 2D beam elements in MATLAB. Also developed simple graphical tools to analyze the deformation results and numerical values of solution obtained.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple Computer Graphics Algorithms</title>
+      <link>https://aditya-shirwatkar.github.io/project/cgsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/cgsm/</guid>
+      <description>&lt;p&gt;Implemented the following computer graphics algorithms in Python,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Digital Differential Analyzer (DDA) - Line and Polygon generating algorithm&lt;/li&gt;
+&lt;li&gt;Bresenham&amp;rsquo;s Line, Polygon, Circle and Ellipse algorithm&lt;/li&gt;
+&lt;li&gt;Cohen-Sutherland Line and window clipping algorithms&lt;/li&gt;
+&lt;li&gt;2D-3D Homogenous Transformation algorithms&lt;/li&gt;
+&lt;li&gt;Bezier and Hermite curve generation algorithms&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

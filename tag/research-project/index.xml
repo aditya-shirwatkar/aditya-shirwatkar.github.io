@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Project | A2</title>
+    <link>https://aditya-shirwatkar.github.io/tag/research-project/</link>
+      <atom:link href="https://aditya-shirwatkar.github.io/tag/research-project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research Project</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://aditya-shirwatkar.github.io/media/icon_hu3c8b3cca05720205a51908e6ee147f10_203090_512x512_fill_lanczos_center_3.png</url>
+      <title>Research Project</title>
+      <link>https://aditya-shirwatkar.github.io/tag/research-project/</link>
+    </image>
+    
+    <item>
+      <title>QHuMuS: Quadrupedal Humanoidal Multi-terrain Snake Robot</title>
+      <link>https://aditya-shirwatkar.github.io/project/qhumus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/qhumus/</guid>
+      <description>&lt;p&gt;For ground robotic systems, different trade-offs must be made when selecting movement modes such as serpentine, legged, and wheeled. The issues observed are that, a single mobility mode is not supportive or optimal and for all the terrain types like flat, sloped, staired, rough, muddy and cluttered. Another issue is that, different levels of autonomy is required depending on the environment condition. The current state of the art reconfiguable robots aim to solve this problem by transitioning between various mobility modes. Nevertheless, these rely on sophisticated mechanisms to disassemble and reassemble modules at different nodes, which increases the size, weight, and power (SWaP) requirements, and also the motion planning complexity. In this work we propose QHuMuS: Quadrupedal Humanoidal Multi-terrain Snake Robot, that performs reconfiguration between the mobility modes of serpentine, wheeled quadruped, and humanoid without any re-arrangement. This work mainly addresses the design of such a reconfigurable robot, and the development of baseline gaits between all the possible configurations. Hence our proposed system has lesser SwaP requirements and motion planning complexity. Additionally simulation results are also provided that showcase the capabilities of the system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trajectory Optimization for Bipedal Robots</title>
+      <link>https://aditya-shirwatkar.github.io/project/trajopt_biped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/trajopt_biped/</guid>
+      <description>&lt;p&gt;This work presents a study on trajectory optimization for bipedal robots using the direct collocation method on a planar five-link underactuated system. The trajectories are generated using a non-linear program in Python with the aid of the CasADi toolbox. The main objective of the project is to implement optimal dynamic walking for human and ostrich gaits on various types of terrains such as sinusoidal, sloped, staired, and flat. The results of the study show that the proposed method is able to generate efficient and stable trajectories for bipedal robots, making it suitable for real-world applications. A comprehensive analysis of the generated trajectories and their performance on different terrains is also provided to understand the limitations and challenges of the method.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

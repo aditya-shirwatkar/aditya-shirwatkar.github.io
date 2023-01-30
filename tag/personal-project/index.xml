@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Project | A2</title>
+    <link>https://aditya-shirwatkar.github.io/tag/personal-project/</link>
+      <atom:link href="https://aditya-shirwatkar.github.io/tag/personal-project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Personal Project</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://aditya-shirwatkar.github.io/media/icon_hu3c8b3cca05720205a51908e6ee147f10_203090_512x512_fill_lanczos_center_3.png</url>
+      <title>Personal Project</title>
+      <link>https://aditya-shirwatkar.github.io/tag/personal-project/</link>
+    </image>
+    
+    <item>
+      <title>Underactuated Robotics</title>
+      <link>https://aditya-shirwatkar.github.io/project/underactuated_rob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/underactuated_rob/</guid>
+      <description>&lt;p&gt;Repository of implementation of few algorithms for Underactuated Systems in Robotics and solutions to some interesting problems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced Robotics</title>
+      <link>https://aditya-shirwatkar.github.io/project/advanced_rob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/advanced_rob/</guid>
+      <description>&lt;p&gt;Repository of implementation of few algorithms taught in CS 287 Berkeley.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://aditya-shirwatkar.github.io/project/rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/rl/</guid>
+      <description>&lt;p&gt;Repository of implementation of few algorithms taught in &lt;em&gt;Introduction to Reinforcement Learning&lt;/em&gt; by David Silver.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PID on the Turtlesim package in ROS</title>
+      <link>https://aditya-shirwatkar.github.io/project/pid_ros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/pid_ros/</guid>
+      <description>&lt;p&gt;Developed a ROS package that executes go-to-goal behaviour using a PID (Proportional-Integral-Derivative) controller on the Turtlesim package provided by ROS&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

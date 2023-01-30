@@ -5,7 +5,7 @@
     <link>https://aditya-shirwatkar.github.io/project/</link>
       <atom:link href="https://aditya-shirwatkar.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://aditya-shirwatkar.github.io/media/icon_hu3c8b3cca05720205a51908e6ee147f10_203090_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,15 +13,103 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://aditya-shirwatkar.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://aditya-shirwatkar.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>Representation Free Model Predictive Control for Legged Locomotion</title>
+      <link>https://aditya-shirwatkar.github.io/project/rfmpc_cpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/rfmpc_cpp/</guid>
+      <description>&lt;p&gt;Model Predictive Control is a popular and powerful control algorithm used in legged robot locomotion. In this project we show the application of the recently published walking controller, Representation Free Model Predictive Control (RF-MPC), to a quadruped robot, Stoch-3, in a simulation environment. The RF-MPC controller directly represents the rotational dynamics using the rotation matrix. Other walking controllers like Convex-MPC use Euler angles for representing orientations, which have singularity and approximation issues. RF-MPC models the quadruped robot as a single rigid body with massless legs. It uses a variation-based linearization scheme to linearize the model. The MPC control law is written in a standard Quadratic Program (QP) form.&lt;/p&gt;
+&lt;p&gt;The Algorithm can perform step-in-place motion for some duration after which the solution starts to diverge and the robot becomes unstable. The main reason behind this is the suboptimal reference trajectory of control inputs based on simple heuristics. Hence we generate the reference trajectory of control inputs for the RF-MPC by using the Convex MPC algorithm at a lower frequency. With this, we have been able to achieve robust performance for
+all different types of gaits. The Convex MPC runs at 30 Hz and RF-MPC runs at 300 Hz. We demonstrate in-place stepping, forward walking, in-place turning, and sideways walking using the trot gait on the Stoch-3 robot in the Pybullet simulation environment. We also performed some preliminary hardware experiments for sim2real validation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ViLocNav: Visual Learning-based Optimal Control and Navigation</title>
+      <link>https://aditya-shirwatkar.github.io/project/vilocnav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/vilocnav/</guid>
+      <description>&lt;p&gt;Model-based control methods like MPC and iLQG are a popular paradigm for autonomous robot navigation because they can efficiently plan robust robot motion trajectories by leveraging a known deterministic or stochastic dynamics model. However, using model-based methods in situations where the environment is a priori unknown and can only be observed partially through onboard sensors on the robot is challenging, and requires mapping and localization of the robot w.r.t to the unknown environment.&lt;/p&gt;
+&lt;p&gt;Mapping can be used to estimate the 3D structure of the environment (using RGB / RGB-D images / LiDAR scans), which is used by a planner to compute paths to a goal. Although such purely geometric intermediate representations do not capture navigational affordances (such as: to go far away, one should step into a hallway, etc.). Furthermore, mapping is challenging with just RGB observations, and often unreliable even with active depth sensors (such as in presence of shiny or thin objects, or presence of strong ambient light). End-to-end learning methods which do not rely on any model-based setting are used to sidestep this explicit map estimation step and have also been studied by some researchers. However, such approaches have proven to extremely sample inefficient and highly specific to the system they were trained on. Plus the control outputs from the pipeline are jittery and often not optimal, which increases the difficulty of deployment in real-world scenarios.&lt;/p&gt;
+&lt;p&gt;In our project, we will try to improve on this shortcoming by combining deep learning and model-based control. Our pipeline will consist of a learning-based perception module along with optimal control for autonomous driving. A series of waypoints are produced by the learning-based perception module that guides the robot to the goal via avoiding obstacles. This approach is highly based on the paper “Combining Optimal Control and Learning for Visual Navigation in Novel Environments”. A model-based planner uses these waypoints to generate a smooth and dynamically feasible trajectory, which is then executed on the physical system using feedback control&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>QHuMuS: Quadrupedal Humanoidal Multi-terrain Snake Robot</title>
+      <link>https://aditya-shirwatkar.github.io/project/qhumus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/qhumus/</guid>
+      <description>&lt;p&gt;For ground robotic systems, different trade-offs must be made when selecting movement modes such as serpentine, legged, and wheeled. The issues observed are that, a single mobility mode is not supportive or optimal and for all the terrain types like flat, sloped, staired, rough, muddy and cluttered. Another issue is that, different levels of autonomy is required depending on the environment condition. The current state of the art reconfiguable robots aim to solve this problem by transitioning between various mobility modes. Nevertheless, these rely on sophisticated mechanisms to disassemble and reassemble modules at different nodes, which increases the size, weight, and power (SWaP) requirements, and also the motion planning complexity. In this work we propose QHuMuS: Quadrupedal Humanoidal Multi-terrain Snake Robot, that performs reconfiguration between the mobility modes of serpentine, wheeled quadruped, and humanoid without any re-arrangement. This work mainly addresses the design of such a reconfigurable robot, and the development of baseline gaits between all the possible configurations. Hence our proposed system has lesser SwaP requirements and motion planning complexity. Additionally simulation results are also provided that showcase the capabilities of the system.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trajectory Optimization for Bipedal Robots</title>
+      <link>https://aditya-shirwatkar.github.io/project/trajopt_biped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/trajopt_biped/</guid>
+      <description>&lt;p&gt;This work presents a study on trajectory optimization for bipedal robots using the direct collocation method on a planar five-link underactuated system. The trajectories are generated using a non-linear program in Python with the aid of the CasADi toolbox. The main objective of the project is to implement optimal dynamic walking for human and ostrich gaits on various types of terrains such as sinusoidal, sloped, staired, and flat. The results of the study show that the proposed method is able to generate efficient and stable trajectories for bipedal robots, making it suitable for real-world applications. A comprehensive analysis of the generated trajectories and their performance on different terrains is also provided to understand the limitations and challenges of the method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Underactuated Robotics</title>
+      <link>https://aditya-shirwatkar.github.io/project/underactuated_rob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/underactuated_rob/</guid>
+      <description>&lt;p&gt;Repository of implementation of few algorithms for Underactuated Systems in Robotics and solutions to some interesting problems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced Robotics</title>
+      <link>https://aditya-shirwatkar.github.io/project/advanced_rob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/advanced_rob/</guid>
+      <description>&lt;p&gt;Repository of implementation of few algorithms taught in CS 287 Berkeley.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://aditya-shirwatkar.github.io/project/rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/rl/</guid>
+      <description>&lt;p&gt;Repository of implementation of few algorithms taught in &lt;em&gt;Introduction to Reinforcement Learning&lt;/em&gt; by David Silver.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PID on the Turtlesim package in ROS</title>
+      <link>https://aditya-shirwatkar.github.io/project/pid_ros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/pid_ros/</guid>
+      <description>&lt;p&gt;Developed a ROS package that executes go-to-goal behaviour using a PID (Proportional-Integral-Derivative) controller on the Turtlesim package provided by ROS&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple FEM Algorithms</title>
+      <link>https://aditya-shirwatkar.github.io/project/fem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/fem/</guid>
+      <description>&lt;p&gt;Repository of implementation of few algorithms for structural analysis of 1D beam, 2D Truss, 1D Rod, and 2D beam elements in MATLAB. Also developed simple graphical tools to analyze the deformation results and numerical values of solution obtained.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simple Computer Graphics Algorithms</title>
+      <link>https://aditya-shirwatkar.github.io/project/cgsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/cgsm/</guid>
+      <description>&lt;p&gt;Implemented the following computer graphics algorithms in Python,&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Digital Differential Analyzer (DDA) - Line and Polygon generating algorithm&lt;/li&gt;
+&lt;li&gt;Bresenham&amp;rsquo;s Line, Polygon, Circle and Ellipse algorithm&lt;/li&gt;
+&lt;li&gt;Cohen-Sutherland Line and window clipping algorithms&lt;/li&gt;
+&lt;li&gt;2D-3D Homogenous Transformation algorithms&lt;/li&gt;
+&lt;li&gt;Bezier and Hermite curve generation algorithms&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
