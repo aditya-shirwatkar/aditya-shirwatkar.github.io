@@ -2,8 +2,8 @@
   "name": "A2",
   "short_name": "A2",
   "lang": "en-us",
-  "theme_color": "#4DA8DA",
-  "background_color": "#4DA8DA",
+  "theme_color": "#357aa1",
+  "background_color": "#357aa1",
   "icons": [{
     "src": "/media/icon_hu3c8b3cca05720205a51908e6ee147f10_203090_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",
