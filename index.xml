@@ -13,6 +13,33 @@
     </image>
     
     <item>
+      <title>Formal Control of Robotic Systems</title>
+      <link>https://aditya-shirwatkar.github.io/project/formal_control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/project/formal_control/</guid>
+      <description>&lt;p&gt;This work includes two projects, one as a final term exam and a final lab exercise.&lt;/p&gt;
+&lt;h2 id=&#34;final-term-exam&#34;&gt;Final Term Exam&lt;/h2&gt;
+&lt;p&gt;Studied, Implemented and Extended the work &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; in MATLAB&lt;/p&gt;
+&lt;h2 id=&#34;final-lab-exercise&#34;&gt;Final Lab Exercise&lt;/h2&gt;
+&lt;p&gt;Designed and Implemented a Controller for a three-wheeled omnidirectional robot to satisfy a given Signal Temporal Logic Specification (STL) in simulation and real-world. The implemented controller is inspired from &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; and &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Rodionova, Alena, Lars Lindemann, Manfred Morari and George J. Pappas. “Time-Robust Control for STL Specifications.” 2021 60th IEEE Conference on Decision and Control (CDC) (2021): 572-579.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;L. Lindemann, C. K. Verginis and D. V. Dimarogonas, &amp;ldquo;Prescribed performance control for signal temporal logic specifications,&amp;rdquo; 2017 IEEE 56th Annual Conference on Decision and Control (CDC), Melbourne, VIC, Australia, 2017, pp. 2997-3002, doi: 10.1109/CDC.2017.8264095.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;M. Sewlia, C. K. Verginis and D. V. Dimarogonas, &amp;ldquo;Cooperative Object Manipulation Under Signal Temporal Logic Tasks and Uncertain Dynamics,&amp;rdquo; in IEEE Robotics and Automation Letters, vol. 7, no. 4, pp. 11561-11568, Oct. 2022, doi: 10.1109/LRA.2022.3200760.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Representation Free Model Predictive Control for Legged Locomotion</title>
       <link>https://aditya-shirwatkar.github.io/project/rfmpc_cpp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -28,9 +55,9 @@ all different types of gaits. The Convex MPC runs at 30 Hz and RF-MPC runs at 30
       <link>https://aditya-shirwatkar.github.io/project/vilocnav/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aditya-shirwatkar.github.io/project/vilocnav/</guid>
-      <description>&lt;p&gt;Model-based control methods like MPC and iLQG are a popular paradigm for autonomous robot navigation because they can efficiently plan robust robot motion trajectories by leveraging a known deterministic or stochastic dynamics model. However, using model-based methods in situations where the environment is a priori unknown and can only be observed partially through onboard sensors on the robot is challenging, and requires mapping and localization of the robot w.r.t to the unknown environment.&lt;/p&gt;
-&lt;p&gt;Mapping can be used to estimate the 3D structure of the environment (using RGB / RGB-D images / LiDAR scans), which is used by a planner to compute paths to a goal. Although such purely geometric intermediate representations do not capture navigational affordances (such as: to go far away, one should step into a hallway, etc.). Furthermore, mapping is challenging with just RGB observations, and often unreliable even with active depth sensors (such as in presence of shiny or thin objects, or presence of strong ambient light). End-to-end learning methods which do not rely on any model-based setting are used to sidestep this explicit map estimation step and have also been studied by some researchers. However, such approaches have proven to extremely sample inefficient and highly specific to the system they were trained on. Plus the control outputs from the pipeline are jittery and often not optimal, which increases the difficulty of deployment in real-world scenarios.&lt;/p&gt;
-&lt;p&gt;In our project, we will try to improve on this shortcoming by combining deep learning and model-based control. Our pipeline will consist of a learning-based perception module along with optimal control for autonomous driving. A series of waypoints are produced by the learning-based perception module that guides the robot to the goal via avoiding obstacles. This approach is highly based on the paper “Combining Optimal Control and Learning for Visual Navigation in Novel Environments”. A model-based planner uses these waypoints to generate a smooth and dynamically feasible trajectory, which is then executed on the physical system using feedback control&lt;/p&gt;
+      <description>&lt;p&gt;Model-based control methods like MPC and iLQG are popular paradigms for autonomous robot navigation because they can efficiently plan robust robot motion trajectories by leveraging a known deterministic or stochastic dynamics model. However, using model-based methods in situations where the environment is a priori unknown and can only be observed partially through onboard sensors on the robot is challenging and requires mapping and localization of the robot w.r.t to the unknown environment.
+Mapping can be used to estimate the 3D structure of the environment (using RGB / RGB-D images / LiDAR scans), which is used by a planner to compute paths to a goal. Although such purely geometric intermediate representations do not capture navigational affordances (such as: to go far away, one should step into a hallway, etc.). Furthermore, mapping is challenging with just RGB observations and often unreliable even with active depth sensors (such as in presence of shiny or thin objects or the presence of strong ambient light). End-to-end learning methods which do not rely on any model-based setting are used to sidestep this explicit map estimation step and have also been studied by some researchers. However, such approaches have proven to be extremely sample inefficient and highly specific to the system they were trained on. Plus the control outputs from the pipeline are jittery and often not optimal, which increases the difficulty of deployment in real-world scenarios.
+In our project, we will try to improve on this shortcoming by combining deep learning and model-based control. Our pipeline will consist of a learning-based perception module along with optimal control for autonomous driving. A series of waypoints are produced by the learning-based perception module that guides the robot to the goal by avoiding obstacles. This approach is highly based on the paper “Combining Optimal Control and Learning for Visual Navigation in Novel Environments”. A model-based planner uses these waypoints to generate a smooth and dynamically feasible trajectory, which is then executed on the physical system using feedback control.&lt;/p&gt;
 </description>
     </item>
     
