@@ -28,15 +28,19 @@
   <url>
     <loc>https://aditya-shirwatkar.github.io/publication/2023_icra/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://aditya-shirwatkar.github.io/publication/2023_air/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://aditya-shirwatkar.github.io/project/cgsm/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://aditya-shirwatkar.github.io/publication/2023_minimal_construct/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://aditya-shirwatkar.github.io/</loc><lastmod>2021-07-30T14:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://aditya-shirwatkar.github.io/</loc><lastmod>2023-06-07T14:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://aditya-shirwatkar.github.io/talk/gazebo/pybullet-robotics-simulation-framework/</loc><lastmod>2023-06-07T14:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://aditya-shirwatkar.github.io/event/</loc><lastmod>2023-06-07T14:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://aditya-shirwatkar.github.io/talk/realizing-linear-controllers-for-quadruped-robots-on-planetary-terrains/</loc><lastmod>2021-07-30T14:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://aditya-shirwatkar.github.io/event/</loc><lastmod>2021-07-30T14:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://aditya-shirwatkar.github.io/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -51,6 +55,10 @@
     <loc>https://aditya-shirwatkar.github.io/publication-type/1/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://aditya-shirwatkar.github.io/publication-type/3/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><changefreq>weekly</changefreq></url>
   <url>
@@ -90,6 +98,14 @@
   <url>
     <loc></loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc></loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://aditya-shirwatkar.github.io/tags/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc></loc><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><changefreq>weekly</changefreq></url></urlset>

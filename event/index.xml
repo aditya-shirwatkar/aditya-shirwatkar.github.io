@@ -5,12 +5,20 @@
     <link>https://aditya-shirwatkar.github.io/event/</link>
       <atom:link href="https://aditya-shirwatkar.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Jul 2021 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jun 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aditya-shirwatkar.github.io/media/icon_hu3c8b3cca05720205a51908e6ee147f10_203090_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://aditya-shirwatkar.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Gazebo/PyBullet Robotics Simulation Framework</title>
+      <link>https://aditya-shirwatkar.github.io/talk/gazebo/pybullet-robotics-simulation-framework/</link>
+      <pubDate>Wed, 07 Jun 2023 14:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/talk/gazebo/pybullet-robotics-simulation-framework/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Realizing Linear Controllers for Quadruped Robots on Planetary Terrains</title>

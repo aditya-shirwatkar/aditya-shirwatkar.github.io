@@ -5,7 +5,7 @@
     <link>https://aditya-shirwatkar.github.io/</link>
       <atom:link href="https://aditya-shirwatkar.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>A2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Jul 2021 14:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jun 2023 14:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aditya-shirwatkar.github.io/media/icon_hu3c8b3cca05720205a51908e6ee147f10_203090_512x512_fill_lanczos_center_3.png</url>
       <title>A2</title>
@@ -142,6 +142,14 @@ In our project, we will try to improve on this shortcoming by combining deep lea
     </item>
     
     <item>
+      <title>Realizing Linear Controllers for Quadruped Robots on Planetary Terrains</title>
+      <link>https://aditya-shirwatkar.github.io/publication/2023_air/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/publication/2023_air/</guid>
+      <description>&lt;!-- empty --&gt;</description>
+    </item>
+    
+    <item>
       <title>Simple Computer Graphics Algorithms</title>
       <link>https://aditya-shirwatkar.github.io/project/cgsm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -163,6 +171,14 @@ In our project, we will try to improve on this shortcoming by combining deep lea
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://aditya-shirwatkar.github.io/publication/2023_minimal_construct/</guid>
       <description>&lt;!-- empty --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gazebo/PyBullet Robotics Simulation Framework</title>
+      <link>https://aditya-shirwatkar.github.io/talk/gazebo/pybullet-robotics-simulation-framework/</link>
+      <pubDate>Wed, 07 Jun 2023 14:00:00 +0000</pubDate>
+      <guid>https://aditya-shirwatkar.github.io/talk/gazebo/pybullet-robotics-simulation-framework/</guid>
+      <description></description>
     </item>
     
     <item>
