@@ -1,0 +1,248 @@
+<!-- ============================================================
+     PROJECTS SECTION
+     To add a project: copy one .project-card block.
+     data-category must be one of: research | course | personal
+     ============================================================ -->
+<section id="projects" class="section section-even">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+
+    <!-- Filter buttons -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="research">Research</button>
+      <button class="filter-btn" data-filter="course">Course</button>
+      <button class="filter-btn" data-filter="personal">Personal</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- ── Research Projects ── -->
+
+      <div class="project-card" data-category="research">
+        <img class="project-card-img" src="assets/projects/qhumus.png" alt="QHuMuS preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-research">Research</span>
+          <h3 class="project-title">QHuMuS: Quadrupedal Humanoidal Multi-terrain Snake Robot</h3>
+          <p class="project-desc">
+            Reconfigurable robot performing serpentine, wheeled quadruped, and humanoid mobility
+            modes without reassembly. Research under Prof. Shital S. Chiddarwar at IvLabs.
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://youtu.be/74RblvP3ZyA" target="_blank" rel="noopener">
+              <i class="fa-brands fa-youtube"></i> Video
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="research">
+        <img class="project-card-img" src="assets/projects/trajopt_biped.png" alt="Biped Trajectory Optimization preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-research">Research</span>
+          <h3 class="project-title">Trajectory Optimization for Bipedal Robots</h3>
+          <p class="project-desc">
+            Trajectory optimization via direct collocation on a planar five-link underactuated
+            system. Tests on sinusoidal, sloped, staired, and flat terrains. Under Sapan Agrawal at IvLabs.
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/IvLabs/biped_trajectory_optimization" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+            <a class="btn btn-outline" href="https://youtu.be/Z-NGuobeeFc" target="_blank" rel="noopener">
+              <i class="fa-brands fa-youtube"></i> Video
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Course Projects ── -->
+
+      <div class="project-card" data-category="course">
+        <img class="project-card-img" src="assets/projects/rfmpc.png" alt="RF-MPC preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-course">Course</span>
+          <h3 class="project-title">Representation-Free MPC for Legged Locomotion</h3>
+          <p class="project-desc">
+            RF-MPC on quadruped Stoch-3 using rotation matrix representation. Combines Convex MPC
+            (30 Hz) with RF-MPC (300 Hz). CP 214 — Foundations of Robotics (IISc).
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://indianinstituteofscience-my.sharepoint.com/:v:/g/personal/adityasr_iisc_ac_in/EZJSBkM6J89AmCbmHvFgclQBeoaGDHcuzewdP4FuUyzicw?e=PKop8p" target="_blank" rel="noopener">
+              <i class="fa-brands fa-youtube"></i> Video
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="course">
+        <img class="project-card-img" src="assets/projects/vilocnav.png" alt="ViLocNav preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-course">Course</span>
+          <h3 class="project-title">ViLocNav: Visual Learning-based Optimal Control and Navigation</h3>
+          <p class="project-desc">
+            Deep learning perception with model-based control for autonomous navigation.
+            MEL457 — AI for Engineers (VNIT).
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://docs.google.com/presentation/d/e/2PACX-1vS1-Xj0hpVnTqkFEI0lSEc-nSpX8KvdLqWTSJlY_unEcoZ7EPbdGNQy0mwndiH62g/pub?start=false&loop=true&delayms=3000" target="_blank" rel="noopener">
+              <i class="fa-solid fa-chalkboard"></i> Slides
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="course">
+        <img class="project-card-img" src="assets/projects/formal_control.png" alt="Formal Control preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-course">Course</span>
+          <h3 class="project-title">Formal Control of Robotic Systems</h3>
+          <p class="project-desc">
+            STL specification implementation on an omnidirectional robot.
+            CP275 — Formal Analysis and Control of Autonomous Systems (IISc).
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/aditya-shirwatkar/CP275_HWS" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="course">
+        <img class="project-card-img" src="assets/projects/num_opt.jpeg" alt="Numerical Optimization preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-course">Course</span>
+          <h3 class="project-title">ODE Analysis of Gradient-based Unconstrained Optimization</h3>
+          <p class="project-desc">
+            GD, Mirror Descent, NAGD, Newton's Method via ODEs with Lyapunov convergence analysis.
+            DS 211 — Numerical Optimization (IISc).
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="project/num_opt/main.pdf" target="_blank" rel="noopener">
+              <i class="fa-solid fa-file"></i> PDF
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="course">
+        <img class="project-card-img" src="assets/projects/fem.png" alt="FEM preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-course">Course</span>
+          <h3 class="project-title">Simple FEM Algorithms</h3>
+          <p class="project-desc">
+            1D beam, 2D Truss, 1D Rod, and 2D beam elements in MATLAB with graphical tools.
+            MEL420 — Finite Element Method (VNIT).
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/aditya-shirwatkar/MEL-420_Finite_Element_Method" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="course">
+        <img class="project-card-img" src="assets/projects/cgsm.jpg" alt="Computer Graphics preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-course">Course</span>
+          <h3 class="project-title">Simple Computer Graphics Algorithms</h3>
+          <p class="project-desc">
+            DDA, Bresenham's, Cohen-Sutherland, 2D/3D transforms, Bézier/Hermite curves in MATLAB.
+            MEL432 — Computer Graphics and Solid Modelling (VNIT).
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/aditya-shirwatkar/CGSM" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Personal Projects ── -->
+
+      <div class="project-card" data-category="personal">
+        <img class="project-card-img" src="assets/projects/contact_trajopt.png" alt="Contact Trajectory Optimization preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-personal">Personal</span>
+          <h3 class="project-title">Contact Trajectory Optimization</h3>
+          <p class="project-desc">
+            Trajectory optimization for rigid bodies in contact, based on Posa, Cantu, &amp; Tedrake (2014).
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/IvLabs/contact_trajectory_optimization" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="personal">
+        <img class="project-card-img" src="assets/projects/underactuated_rob.jpg" alt="Underactuated Robotics preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-personal">Personal</span>
+          <h3 class="project-title">Underactuated Robotics</h3>
+          <p class="project-desc">
+            Implementations from MIT 6.832 by Dr. Russ Tedrake — trajectory optimization, LQR, and related methods.
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/aditya-shirwatkar/UnderactuatedRobotics" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="personal">
+        <img class="project-card-img" src="assets/projects/rl.png" alt="Reinforcement Learning preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-personal">Personal</span>
+          <h3 class="project-title">Reinforcement Learning</h3>
+          <p class="project-desc">
+            RL algorithms from David Silver's lecture series — DP, TD learning, policy gradients, and more.
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/aditya-shirwatkar/RL" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="personal">
+        <img class="project-card-img" src="assets/projects/advanced_rob.jpg" alt="Advanced Robotics preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-personal">Personal</span>
+          <h3 class="project-title">Advanced Robotics</h3>
+          <p class="project-desc">
+            Implementations from CS 287 (UC Berkeley) by Dr. Pieter Abbeel — probabilistic robotics,
+            motion planning, and manipulation.
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/aditya-shirwatkar/AdvancedRobotics" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="personal">
+        <img class="project-card-img" src="assets/projects/pid_ros.jpg" alt="PID ROS preview" loading="lazy" />
+        <div class="project-card-body">
+          <span class="project-tag tag-personal">Personal</span>
+          <h3 class="project-title">PID on Turtlesim (ROS)</h3>
+          <p class="project-desc">
+            Go-to-goal behavior using a PID controller on the Turtlesim ROS package.
+          </p>
+          <div class="project-links">
+            <a class="btn btn-outline" href="https://github.com/aditya-shirwatkar/basic_robotics" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /projects-grid -->
+  </div>
+</section>

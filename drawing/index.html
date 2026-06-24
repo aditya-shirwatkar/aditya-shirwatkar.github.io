@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drawings — Aditya Shirwatkar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body class="drawings-page">
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav id="navbar">
+    <a class="nav-brand" href="../index.html">A2</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="../index.html#about">Home</a></li>
+        <li><a href="../index.html#publications">Publications</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="https://drive.google.com/file/d/1cGdITHwhlH7EjOn60NJnYkIYIDxS2y9l/view" target="_blank" rel="noopener">CV</a></li>
+      </ul>
+      <button id="theme-toggle" title="Toggle dark/light mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <div class="drawings-hero">
+    <h1>Drawings</h1>
+    <p>
+      I've been doing this since my school days, but lost a lot of my early artworks.
+      Recently shifted to digital medium, trying to improve my coloring skills.
+      Still imitating things — working towards more original content.
+    </p>
+  </div>
+
+  <!-- ===================== GALLERY ===================== -->
+  <div class="drawings-section">
+    <div class="container">
+      <div class="drawings-grid">
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/kaine.png', 'Kainè — NieR Replicant ver.1.22474487139...')">
+          <img src="../assets/drawings/kaine.png" alt="Kainè from NieR Replicant" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Kainè</p>
+            <p class="drawing-card-sub">NieR Replicant ver.1.22474487139...</p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/zagreus.png', 'Zagreus — Hades')">
+          <img src="../assets/drawings/zagreus.png" alt="Zagreus from Hades" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Zagreus</p>
+            <p class="drawing-card-sub">Hades</p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/vivy.png', 'Vivy — Vivy: Fluorite Eye\'s Song')">
+          <img src="../assets/drawings/vivy.png" alt="Vivy from Vivy: Fluorite Eye's Song" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Vivy</p>
+            <p class="drawing-card-sub">Vivy: Fluorite Eye's Song</p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/guts.png', 'Guts — Berserk')">
+          <img src="../assets/drawings/guts.png" alt="Guts from Berserk" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Guts</p>
+            <p class="drawing-card-sub">Berserk</p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/deadpool.jpg', 'Deadpool')">
+          <img src="../assets/drawings/deadpool.jpg" alt="Deadpool" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Deadpool</p>
+            <p class="drawing-card-sub"></p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/pain.jpg', 'Pain — Naruto')">
+          <img src="../assets/drawings/pain.jpg" alt="Pain from Naruto" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Pain</p>
+            <p class="drawing-card-sub">Naruto</p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/itachi.jpg', 'Itachi — Naruto')">
+          <img src="../assets/drawings/itachi.jpg" alt="Itachi from Naruto" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Itachi</p>
+            <p class="drawing-card-sub">Naruto</p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/random.jpg', 'Random thoughts from my mind')">
+          <img src="../assets/drawings/random.jpg" alt="Random thoughts" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Random thoughts</p>
+            <p class="drawing-card-sub">from my mind</p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/rick.jpg', 'Rick Grimes — The Walking Dead (Comics)')">
+          <img src="../assets/drawings/rick.jpg" alt="Rick Grimes" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">Rick Grimes</p>
+            <p class="drawing-card-sub">The Walking Dead (Comics)</p>
+          </div>
+        </div>
+
+        <div class="drawing-card" onclick="openLightbox('../assets/drawings/johnwick.jpg', 'John Wick')">
+          <img src="../assets/drawings/johnwick.jpg" alt="John Wick" loading="lazy" />
+          <div class="drawing-card-body">
+            <p class="drawing-card-title">John Wick</p>
+            <p class="drawing-card-sub"></p>
+          </div>
+        </div>
+
+      </div><!-- /drawings-grid -->
+    </div>
+  </div>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <img id="lightbox-img" src="" alt="" />
+    <p id="lightbox-caption" class="lightbox-caption"></p>
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <p>
+      © 2025 Aditya Shirwatkar &nbsp;·&nbsp;
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>
+    </p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    function openLightbox(src, caption) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox-caption').textContent = caption;
+      document.getElementById('lightbox').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+  </script>
+</body>
+</html>
