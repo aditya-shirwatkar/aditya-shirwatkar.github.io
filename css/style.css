@@ -192,8 +192,8 @@ img { max-width: 100%; height: auto; display: block; }
    ============================================================ */
 .about-grid {
   display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 3rem;
+  grid-template-columns: 360px 1fr;
+  gap: 3.5rem;
   align-items: start;
 }
 
@@ -205,13 +205,13 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .avatar {
-  width: 280px;
-  height: 280px;
-  border-radius: 20px;
+  width: 320px;
+  height: 320px;
+  border-radius: 22px;
   object-fit: cover;
   border: 5px solid var(--primary);
   box-shadow: var(--shadow);
-  margin: 0 auto 1.25rem;
+  margin: 0 auto 1.4rem;
 }
 
 .about-name {
@@ -225,6 +225,14 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--text-muted);
   line-height: 1.5;
   margin-bottom: 1.5rem;
+}
+
+.about-keywords {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-top: 1.25rem;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .social-links {
@@ -258,10 +266,10 @@ img { max-width: 100%; height: auto; display: block; }
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
-  padding: 1.25rem 1.5rem;
+  padding: 1.5rem 1.75rem;
   box-shadow: var(--shadow);
-  flex: 1 1 auto;
-  min-width: 200px;
+  flex: 1 1 320px;
+  min-width: 320px;
 }
 
 .detail-block h3 {
@@ -317,6 +325,7 @@ img { max-width: 100%; height: auto; display: block; }
 @media (max-width: 768px) {
   .about-grid    { grid-template-columns: 1fr; gap: 2rem; }
   .about-details { max-width: 100%; }
+  .avatar        { width: 240px; height: 240px; }
 }
 
 /* ============================================================
@@ -324,7 +333,7 @@ img { max-width: 100%; height: auto; display: block; }
    Cards share .project-card base; pub-specific extras below.
    ============================================================ -->
 
-/* ── Badge ── */
+/* ---- Badge ---- */
 .pub-badge {
   display: inline-block;
   font-size: 0.68rem;
