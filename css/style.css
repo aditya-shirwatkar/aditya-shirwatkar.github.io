@@ -229,7 +229,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .about-keywords {
   color: var(--text-muted);
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   margin-top: 1.25rem;
   letter-spacing: 0.02em;
   text-align: center;
@@ -253,6 +253,16 @@ img { max-width: 100%; height: auto; display: block; }
 .social-links a:hover { color: var(--primary); transform: translateY(-2px); }
 
 .about-bio { margin-bottom: 2rem; font-size: 1rem; line-height: 1.8; }
+
+.about-cta { margin-top: 1.25rem; }
+.about-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
 .about-bio p { margin-bottom: 1rem; }
 .about-bio p:last-child { margin-bottom: 0; }
 
